@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/notification_play"
+        android:contentDescription="@string/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/baseline_play_arrow_24" />
+
+    <ImageView
+        android:id="@+id/notification_pause"
+        android:contentDescription="@string/pause_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/baseline_pause_24" />
+
+    <ImageView
+        android:id="@+id/notification_previos"
+        android:contentDescription="@string/previous_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/baseline_skip_previous_24" />
+
+    <ImageView
+        android:id="@+id/notification_next"
+        android:contentDescription="@string/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/baseline_skip_next_24" />
+</LinearLayout>
